@@ -15,6 +15,7 @@ body{
 
 .column-1{
     width: 50%;
+    height: 100%;
     background-image :linear-gradient(90deg, #6EE0CB, #6FE0CB); 
     border-top-left-radius: 10px ;
     border-bottom-left-radius: 10px;
@@ -28,6 +29,10 @@ body{
 .column-1-contents{
     font-size: 1.4em;
 }
+.column-1-contents img{
+    margin: auto;
+    width: 50%;
+}
 
 .column-1-contents h2{
     margin-top: 8em;
@@ -40,6 +45,7 @@ body{
 
 .column-2{
     width: 50%;
+    height: 100%;
     background-image :linear-gradient( 90deg, #374961, #374965 ); 	
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -123,8 +129,18 @@ padding-top: 0.3em;
     color: #F6F6F7 !important;
 }
 
-.form{
-       
+form p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 0.6em;
+    margin-top: -1.6em;
+    margin-left: 2.5em;
+    color: #626F7F;
+}
+
+form p a {
+    color: #F6F6F7;
+    font-size : 2em ;
 }
 .form-inputs{
     background-color: #374961;
@@ -156,6 +172,7 @@ padding-top: 0.3em;
     }
 
 .signup-button{
+    margin-top: 2em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     padding-left: 0.8em;
@@ -168,4 +185,5 @@ padding-top: 0.3em;
     color: #F6F6F7;
     box-shadow: 10px 10px 30px #212E3E;
     width: 60px;
+    display: block;
 }
