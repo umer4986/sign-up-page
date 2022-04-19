@@ -40,7 +40,7 @@ body{
 
 .column-2{
     width: 50%;
-    background-image :linear-gradient( 90deg, #374961, #374963 ); 	
+    background-image :linear-gradient( 90deg, #374961, #374965 ); 	
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 10px 10px 30px #3E4E61;
@@ -85,15 +85,20 @@ body{
     padding-bottom: 0.3em;
     padding-left: 0.8em;
     padding-right: 0.8em;
-    font-size: 0.7em;
+    font-size: 0.9em;
     border-radius: 20px;
-    background-color:#6EE0CB  ;
+    background-color: #626F7F;
     border-style: none;
     outline: none;
     color: #F6F6F7;
     box-shadow: 10px 10px 30px #212E3E;
 }
 
+
+.top-buttons-current{
+    color: #F6F6F7;
+    background-color: #6EE0CB  
+}
 /*
 
 
