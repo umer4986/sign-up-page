@@ -45,7 +45,6 @@ body{
 
 .column-2{
     width: 50%;
-    height: 100%;
     background-image :linear-gradient( 90deg, #374961, #374965 ); 	
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -186,4 +185,25 @@ form p a {
     box-shadow: 10px 10px 30px #212E3E;
     width: 60px;
     display: block;
+}
+
+
+@media (max-width : 600px) {
+   .main-container{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .column-1{
+    width: 100%;
+   }
+
+   .column-2{
+    width: 100%;
+    border-bottom-right-radius: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: none;
+    border: 2px white solid;
+   }
+
 }
